@@ -1,0 +1,50 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórum de Conversas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Fórum do caos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="user-profile">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUzkH_Pm2fixXhxXbH1k5iYHbkl3Kgisu3Yg&s" alt="Perfil" class="profile-pic">
+                <div class="user-info">
+                    <h2>Usuário?</h2>
+                    <p>Status: Online</p>
+                </div>
+            </section>
+
+            <section class="messages" id="messages">
+                <div class="message">
+                    <span class="user">ghost</span>
+                    <span class="timestamp">10:00</span>
+                    <p>Odeio essa escola</p>
+                </div>
+                <div class="message">
+                    <span class="user">Signup</span>
+                    <span class="timestamp">10:02</span>
+                    <p>Quem gosta na real</p>
+                </div>
+                <!-- Mais mensagens podem ser adicionadas aqui -->
+            </section>
+
+            <form class="message-form" id="messageForm">
+                <input type="text" id="messageInput" placeholder="Digite sua mensagem..." required>
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
